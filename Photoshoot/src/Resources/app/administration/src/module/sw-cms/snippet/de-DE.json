@@ -1,0 +1,56 @@
+{
+    "sw-cms": {
+        "elements": {
+            "reviewSlider": {
+                "label": "Kunden-Slider",
+                "config": {
+                    "label": {
+                        "navigationArrows": "Pfeile-Navigation",
+                        "navigationPositionNone": "Keine",
+                        "navigationPositionInside": "Innen",
+                        "navigationPositionOutside": "Außen",
+                        "navigationDots": "Punkte-Navigation"
+                    }
+                }
+            },
+            "button": {
+                "label": "Button"
+            },
+            "text": {
+                "label": "Text"
+            }
+        },
+        "blocks": {
+            "textImage": {
+                "hero": {
+                    "label": "Hero"
+                },
+                "centerButton": {
+                    "label": "zentrierte Schaltfläche"
+                },
+                "three-image-text-column": {
+                    "label": "Drei Bild Text Spalten"
+                },
+                "image-card": {
+                    "label": "Bild Karte"
+                }
+            },
+            "image": {
+                "imageMultipleGrid": {
+                    "label": "Bild Mehrfachgitter"
+                }
+            },
+            "text": {
+                "text-heading": {
+                    "label": "Textüberschrift"
+                },
+                "heading": {
+                    "label": "Überschrift"
+                },
+                "three-text-column": {
+                    "label": "Drei Text Spalten"
+                }
+            }
+        }
+    }
+}

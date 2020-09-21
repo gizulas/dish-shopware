@@ -1,0 +1,56 @@
+{
+    "sw-cms": {
+        "elements": {
+            "reviewSlider": {
+                "label": "Review Slider",
+                "config": {
+                    "label": {
+                        "navigationArrows": "Arrow navigation",
+                        "navigationPositionNone": "None",
+                        "navigationPositionInside": "Inside",
+                        "navigationPositionOutside": "Outside",
+                        "navigationDots": "Dots navigation"
+                    }
+                }
+            },
+            "button": {
+                "label": "Button"
+            },
+            "text": {
+                "label": "Text"
+            }
+        },
+        "blocks": {
+            "textImage": {
+                "hero": {
+                    "label": "Hero"
+                },
+                "centerButton": {
+                    "label": "centered Button"
+                },
+                "three-image-text-column": {
+                    "label": "Three Image Text Columns"
+                },
+                "image-card": {
+                    "label": "Image Card"
+                }
+            },
+            "image": {
+                "imageMultipleGrid": {
+                    "label": "Image Multiple Grid"
+                }
+            },
+            "text": {
+                "text-heading": {
+                    "label": "Text Heading"
+                },
+                "heading": {
+                    "label": "Heading"
+                },
+                "three-text-column": {
+                    "label": "Three Text Columns"
+                }
+            }
+        }
+    }
+}
