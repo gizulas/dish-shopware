@@ -1,4 +1,4 @@
-@import 'abstract/variable';
+@import "abstract/variable";
 @import "component/cms-block-center-button";
 @import "component/cms-block-hero";
 @import "component/cms-block-image-multiple-grid";
@@ -65,4 +65,7 @@ h6 {
     button {
         color: $bg-color;
     }
+}
+.btn-primary {
+    color: $bg-color;
 }
