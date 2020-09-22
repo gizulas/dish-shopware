@@ -3,11 +3,11 @@
 .gallery {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 23.5vh);
+    grid-template-rows: repeat(3, 180px);
     grid-gap: 30px;
     @media screen and (max-width: 768px) {
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 13vh);
+        grid-template-rows: repeat(3, 110px);
         grid-gap: 20px;
     }
 
@@ -20,7 +20,8 @@
             @media screen and (max-width: 768px) {
                 border-radius: 4px;
                 height: 110px;
-                width: 165px;
+                width: 100%;
+                min-width: 165px;
             }
         }
     }

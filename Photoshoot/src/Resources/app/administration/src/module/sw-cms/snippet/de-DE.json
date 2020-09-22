@@ -1,23 +1,11 @@
 {
     "sw-cms": {
         "elements": {
-            "reviewSlider": {
-                "label": "Kunden-Slider",
-                "config": {
-                    "label": {
-                        "navigationArrows": "Pfeile-Navigation",
-                        "navigationPositionNone": "Keine",
-                        "navigationPositionInside": "Innen",
-                        "navigationPositionOutside": "Außen",
-                        "navigationDots": "Punkte-Navigation"
-                    }
-                }
-            },
             "button": {
                 "label": "Button"
             },
-            "text": {
-                "label": "Text"
+            "custom-text": {
+                "label": "Benutzerdefinierter Text"
             }
         },
         "blocks": {
