@@ -75,8 +75,10 @@
             width: 241px;
             height: 70px;
             border-radius: 4px;
-            padding-top: 23px;
-            padding-bottom: 22px;
+            padding-top: 21px;
+            padding-bottom: 21px;
+            padding-left: 43px;
+            padding-right: 42px;
             color: $text-hero-color;
             @media screen and (max-width: 576px) {
                 font-size: 18px;

@@ -53,6 +53,9 @@
             #languagesDropdown-top-bar {
                 align-items: center;
                 padding-top: 8px;
+                &:focus {
+                    box-shadow: none;
+                }
             }
             .top-bar-language {
                 // margin-right: -2px;
