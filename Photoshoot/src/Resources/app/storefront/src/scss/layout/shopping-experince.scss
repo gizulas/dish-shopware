@@ -496,17 +496,18 @@
                             font-style: normal;
                             line-height: normal;
                             letter-spacing: normal;
-                            color: $sw-color-brand-primary;
+                            color: $sw-color-brand-primary-dark;
                             width: 100%;
                             height: 56px;
                             background: none;
-                            border: 2px solid $sw-color-brand-primary;
+                            border: 2px solid $sw-color-brand-primary-dark;
                             border-radius: 3px;
                             padding: 16px 20px;
                             &:hover,
                             &:focus,
                             &:active {
-                                background: $sw-color-brand-primary-dark;
+                                background: #ec6f3d;
+                                border-color: #ea6732;
                                 color: $text-button-color;
                                 outline: unset;
                                 cursor: pointer;
@@ -550,7 +551,7 @@
                 &::before {
                     content: "most popular";
                     position: absolute;
-                    background: $sw-color-brand-primary;
+                    background: $sw-color-brand-primary-dark;
                     color: $bg-color;
                     font-size: 16px;
                     font-weight: 600;
@@ -575,11 +576,12 @@
                     .button {
                         a {
                             color: $text-button-color;
-                            background: $sw-color-brand-primary;
+                            background: $sw-color-brand-primary-dark;
                             &:hover,
                             &:focus,
                             &:active {
-                                background: $sw-color-brand-primary-dark;
+                                background-color: #e65117;
+                                border-color: #da4d16;
                                 outline: unset;
                                 cursor: pointer;
                                 text-decoration: none;
@@ -658,6 +660,7 @@
                 }
                 .btn-get-started {
                     color: $text-button-color;
+                    background: $sw-color-brand-primary-dark;
                     width: 268px;
                     height: 70px;
                     font-size: 22px;
@@ -678,7 +681,19 @@
                         height: 48px;
                         font-size: 18px;
                         line-height: 1.22;
-                        padding-top: 13px;
+                        padding-top: 12px;
+                        padding-bottom: 12px;
+                        padding-left: 26px;
+                        padding-right: 26px;
+                    }
+                    &:hover,
+                    &:focus,
+                    &:active {
+                        background-color: #e65117;
+                        border-color: #da4d16;
+                        outline: unset;
+                        cursor: pointer;
+                        text-decoration: none;
                     }
                 }
             }
@@ -687,9 +702,19 @@
 
     .scroll-up-button {
         .btn-primary {
+            background: $sw-color-brand-primary-dark;
             border-radius: 4px;
             .icon {
                 color: $bg-color;
+            }
+            &:hover,
+            &:focus,
+            &:active {
+                background-color: #e65117;
+                border-color: #da4d16;
+                outline: unset;
+                cursor: pointer;
+                text-decoration: none;
             }
         }
     }

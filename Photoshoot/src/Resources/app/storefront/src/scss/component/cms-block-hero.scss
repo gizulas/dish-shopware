@@ -80,13 +80,26 @@
             padding-left: 43px;
             padding-right: 42px;
             color: $text-hero-color;
+            background: $sw-color-brand-primary-dark;
+            border-color: transparent;
             @media screen and (max-width: 576px) {
                 font-size: 18px;
                 line-height: 1.22;
                 width: 180px;
                 height: 48px;
-                padding-top: 13px;
-                padding-bottom: 13px;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                padding-left: 26px;
+                padding-right: 26px;
+            }
+            &:hover,
+            &:focus,
+            &:active {
+                background-color: #e65117;
+                border-color: #da4d16;
+                outline: unset;
+                cursor: pointer;
+                text-decoration: none;
             }
         }
     }

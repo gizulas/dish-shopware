@@ -63,9 +63,16 @@ h6 {
 
 .cookie-permission-container {
     button {
-        color: $bg-color;
+        color: $text-button-color;
+        background: $sw-color-brand-primary-dark;
+        &:hover,
+        &:focus,
+        &:active {
+            background-color: #e65117;
+            border-color: #da4d16;
+            outline: unset;
+            cursor: pointer;
+            text-decoration: none;
+        }
     }
-}
-.btn-primary {
-    color: $bg-color;
 }
