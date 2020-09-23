@@ -62,7 +62,7 @@ h6 {
 }
 
 .cookie-permission-container {
-    button {
+    .btn-primary {
         color: $text-button-color;
         background: $sw-color-brand-primary-dark;
         &:hover,
